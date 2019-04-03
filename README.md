@@ -36,7 +36,14 @@ Update Line 68
 </clock>
 ```
 
-[Code Pen](https://codepen.io/ravishan16/pen/KYdppM)
+### New Year 2020 Count Down Timer (Code Pen)
+
+<p class="codepen" data-height="343" data-theme-id="dark" data-default-tab="html,result" data-user="ravishan16" data-slug-hash="KYdppM" data-preview="true" style="height: 343px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="New Year Count Down Timer">
+  <span>See the Pen <a href="https://codepen.io/ravishan16/pen/KYdppM/">
+  New Year Count Down Timer</a> by Ravishankar Sivasubramaniam (<a href="https://codepen.io/ravishan16">@ravishan16</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 ### Deploy to AWS S3
 
