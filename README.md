@@ -7,7 +7,7 @@ As we got ready to kick start the Reinvent the wheel Hackathon, the team prepare
 
 Here is a straightforward HTML/CSS/JS code to build a minimal Count Down Timer. The app is deployed in AWS S3 bucket, and it is as simple as creating a static hosting bucket and uploading the index.html. You could quickly change the logo, color scheme, fonts to match your need and taste.
 
-Link to the App : http://hackathon-timer.s3-website-us-east-1.amazonaws.com/
+Link to the App : http://ravishankars.com/countdowntimer/
 
 ### Setup Timer 
 
