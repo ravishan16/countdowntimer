@@ -96,10 +96,8 @@ Update Line 68
    ```
     aws s3 cp index.html s3://hackathon-timer/
    ```
-<<<<<<< HEAD
 
 License
 -------
 
 [MIT](https://github.com/atom/atom/blob/master/LICENSE.md)
-=======
