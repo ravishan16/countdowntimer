@@ -1,6 +1,8 @@
-# Hackathon Timer App
+Hackathon Timer App
+======================
 
-Tag: #HTML #CSS #JS #CountDownTimer #Hackathon #AWS #S3 #ReinventTheWheel
+Why?
+------------
 
 As we got ready to kick start the Reinvent the wheel Hackathon, the team prepared everything from the challenge, eye masks, catering, playlist, networking, live leaderboard, and the whole nine yards. However when the time came to display a 24 Hr count down timer in the big screen, We couldn't find a decent, minimal, clutter-free Count down timer in the web without ads.  
 
@@ -95,3 +97,8 @@ Update Line 68
    ```
     aws s3 cp index.html s3://hackathon-timer/
    ```
+
+License
+-------
+
+[MIT](https://github.com/atom/atom/blob/master/LICENSE.md)

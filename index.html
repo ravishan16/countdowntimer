@@ -7,6 +7,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Count Down Timer</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
   <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -65,9 +67,10 @@
   </clock>
 
   <footer>
-    <p hidden>Ravishankar Sivasubramaniam, Charlotte, NC</p>
     <p class="now text-muted" id="now"></p>
+    <p class="now text-muted">Ravishankar Sivasubramaniam</p>
   </footer>
+
 </body>
 
 </html>
@@ -100,4 +103,14 @@
       document.getElementById("timer").innerHTML = "-- : -- : --";
     }
   }, 1000);
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119195186-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-119195186-3');
 </script>
