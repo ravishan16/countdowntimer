@@ -50,10 +50,12 @@ Update Line 68
 1. Create an S3 Bucket (URL will be http://<Bucket-Name>.s3-website-<Region>.amazonaws.com/) and the bucket names should be globally unique
 
     ![Create Bucket ](screenshots/create-bucket1.png)
+
     ![Create Bucket ](screenshots/create-bucket2.png)  
  
 2. Set Properties 
     ![Static Web Hosting ](screenshots/static1.png)
+    
     ![Set Index Document ](screenshots/static2.png)  
  
 3. Set Permission - Bucket Policy and CORS
