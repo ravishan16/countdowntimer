@@ -43,14 +43,22 @@ Update Line 68
   New Year Count Down Timer</a> by Ravishankar Sivasubramaniam (<a href="https://codepen.io/ravishan16">@ravishan16</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
 
 ### Deploy to AWS S3
 
 1. Create an S3 Bucket (URL will be http://<Bucket-Name>.s3-website-<Region>.amazonaws.com/) and the bucket names should be globally unique
+
+    ![Create Bucket ](screenshots/create-bucket1.png)
+    ![Create Bucket ](screenshots/create-bucket2.png)  
  
 2. Set Properties 
-3. Update Bucket Policy
+    ![Static Web Hosting ](screenshots/static1.png)
+    ![Set Index Document ](screenshots/static2.png)  
+ 
+3. Set Permission - Bucket Policy and CORS
+   
+   Bucket Policy
    ```
     {
         "Version": "2012-10-17",
@@ -65,6 +73,22 @@ Update Line 68
         ]
     }
    ```
+    ![Bucket Policy ](screenshots/bucket-policy.png)
+
+   CORS Configuration
+   ```
+    <?xml version="1.0" encoding="UTF-8"?>
+    <CORSConfiguration xmlns="http://s3.amazonaws.com/doc/2006-03-01/">
+    <CORSRule>
+        <AllowedOrigin>*</AllowedOrigin>
+        <AllowedMethod>GET</AllowedMethod>
+        <MaxAgeSeconds>3000</MaxAgeSeconds>
+        <AllowedHeader>*</AllowedHeader>
+    </CORSRule>
+    </CORSConfiguration>
+   ```
+![CORS Configuration ](screenshots/cors-conf.png)  
+
 4. Upload/Sync code to the bucker (Use awscli)
    ```
     aws s3 cp index.html s3://hackathon-timer/
