@@ -1,12 +1,9 @@
 Hackathon Timer App
 ======================
 
-<<<<<<< HEAD
 Why?
 ------------
-=======
 As we got ready to kick start the Reinvent the wheel Hackathon, the team prepared everything from the challenge, eye masks, catering, playlist, networking, live leaderboard, and the whole nine yards. However, when the time came to display a 24 Hr count down timer in the big screen, We couldn't find a decent, minimal, clutter-free Count down timer in the web without ads.
->>>>>>> 76f31ab04d5f1f7116f768c0260dea3d1e5df202
 
 Here is a straightforward HTML/CSS/JS code to build a minimal Count Down Timer. The app is deployed in AWS S3 bucket, and it is as simple as creating a static hosting bucket and uploading the index.html. You could quickly change the logo, color scheme, fonts to match your need and taste.
 
@@ -106,4 +103,3 @@ License
 
 [MIT](https://github.com/atom/atom/blob/master/LICENSE.md)
 =======
->>>>>>> 76f31ab04d5f1f7116f768c0260dea3d1e5df202
