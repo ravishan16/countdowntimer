@@ -1,4 +1,4 @@
-Hackathon Timer App
+Hackathon Timer App / S3 Static Page App Deployment
 ======================
 
 Why?
